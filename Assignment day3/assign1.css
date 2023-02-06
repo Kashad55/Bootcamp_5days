@@ -1,0 +1,43 @@
+.container {
+    background-color: lightblue;
+    height: 400px;
+    width: 400px;
+    margin: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px 2em;
+    align-self: center;
+}
+
+.one{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    font-size: 24px;
+       
+}
+
+.two{
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    font-size: 24px;
+}
+
+.three{
+    height: 50px;
+    width: 50px;
+    background-color: green;
+    font-size: 24px;
+    /* clear: left; */
+}
+
+.four{
+    height: 50px;
+    width: 50px;
+    background-color: yellow;
+    font-size: 24px;
+    /* align-self: flex-end; */
+}
